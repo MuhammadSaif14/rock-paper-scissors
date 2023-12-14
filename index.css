@@ -1,0 +1,44 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .choice {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 10px;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            cursor: pointer;
+        }
+        .choice:hover {
+            background-color: #e0e0e0;
+        }
+        .choice img {
+            width: 100px;
+            height: 100px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #333;
+        }
